@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+.nav-tabs,
+.nav-link {
+  border: none !important;
+  background-color: transparent !important;
+  border-bottom: none !important;
+  color: black;
+}
+.nav-link:hover {
+  color: black;
+}
+.nav-link.active {
+  color: #0d6efd !important;
+  border-color: #0d6efd;
+  border-bottom: 2px solid !important;
+}
+.tab-cards {
+  min-width: 400px;
+  padding: 18px;
+  border-radius: 15px;
+}
+.nav-title {
+  font-size: 17px;
+  font-weight: 700;
+  padding: 4px 0;
+  border-bottom: 2px solid !important;
+  border-color: #8b8d90 !important;
+}
+.auth-inputs {
+  height: 40px;
+  background-color: #eaf2fe !important;
+}
+.auth-inputs::placeholder {
+  font-weight: 550;
+  font-size: 14px;
+  color: rgb(104, 102, 102);
+}
+.forget-text {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black !important;
+}
+.register-btn {
+  font-weight: 500;
+  background-color: #0d6efd !important;
+}
+
+.register-info {
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 12px;
+}
+.side-img {
+  max-width: 200px;
+  padding: 25px 25px 5px 0;
+}
+.mobile-logo {
+  position: absolute;
+  top: 45px;
+  left: 50px;
+  padding: 0;
+}
+.sidebar-title,
+.sidebar-text {
+  color: whitesmoke;
+  margin: 25px 0;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 278px;
+  word-spacing: 2px;
+  padding-right: 30px;
+}
+.sidebar-text {
+  font-weight: 450 !important;
+  font-size: 15px !important;
+  line-height: 27px !important;
+  max-width: 378px !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+  color: whitesmoke;
+}
+.sidebar-container {
+  padding: 45px 78px;
+  background: #de3bc6;
+  background: linear-gradient(
+    318deg,
+    rgba(222, 59, 198, 1) 0%,
+    rgba(169, 97, 213, 1) 50%,
+    rgba(107, 140, 230, 1) 100%
+  );
+}
