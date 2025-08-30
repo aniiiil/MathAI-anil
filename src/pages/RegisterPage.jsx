@@ -4,7 +4,7 @@ const RegisterPage = () => {
   return (
     <section className="register-page  min-vh-100 bg-light ">
       <div className=" row d-flex g-0 position-relative justify-content-center align-items-center min-vh-100">
-        <div className=" d-none d-lg-block col-sm-6 col-md-4 g-0 m-0   sidebar-container  min-vh-100">
+        <div className=" d-none d-lg-flex col-sm-6 col-md-4 g-0 m-0   sidebar-container  min-vh-100">
           <div className="h-100 ">
             <div className="side-img ">
               <img className="w-100 " src="./logo.png" alt="" srcset="" />
